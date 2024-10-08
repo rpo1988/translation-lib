@@ -7,7 +7,7 @@
       "build": "npm run clean && tsc",
       "start": "npm run clean && tsc --watch",
       "package": "npm run build && node ./dist/scripts/package.js",
-      "deploy": "npm publish ./lib",
+      "deploy": "node ./dist/scripts/deploy.js",
       "lint": "tslint --force './src/**/*.ts'",
       "translate:link": "translation-lib -i ./mocks/assets/i18n/es.json -s es -o ./mocks/assets/i18n -t en fr",
       "translate:local": "node . -i ./mocks/assets/i18n/es.json -s es -o ./mocks/assets/i18n -t en fr"
