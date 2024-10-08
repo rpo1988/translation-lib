@@ -1,7 +1,7 @@
 {
    "name": "@rpo1988/translation-lib",
    "description": "Node library to translate a language JSON into a list of languages by Google API",
-   "version": "1.0.0",
+   "version": "1.0.2",
    "scripts": {
       "clean": "rm -rf ./dist ./lib",
       "build": "npm run clean && tsc",
