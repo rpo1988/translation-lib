@@ -1,0 +1,15 @@
+{
+   "compilerOptions": {
+      "incremental": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "target": "es2015",
+      "typeRoots": ["node_modules/@types"],
+      "lib": ["ESNext"],
+      "sourceMap": true
+   },
+   "include": ["./src/**/*.ts", "./scripts/**/*.ts"]
+}
